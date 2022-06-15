@@ -1,0 +1,43 @@
+  .grid{
+            display: grid;
+            grid-template-columns: 33% 40% 27%;
+                grid-template-rows: 50px 50px 50px;
+            }
+
+            .logo {
+                grid-area: logo;
+            background:blue;
+            }
+
+            .nav {
+                grid-area: nav;
+            background:red;
+            }
+
+            .content {
+                grid-area: content;
+            background:green;
+            }
+
+            .sidenav {
+                grid-area: sidenav;
+            background:pink;
+            }
+
+            .advert {
+                grid-area: advert;
+            background:gray;
+            }
+
+            .footer {
+                grid-area: footer;
+            background:red;
+            }
+
+            .grid-template-areas-1 {
+                grid-template-areas:
+                    "logo logo logo"
+                    "sidenav content advert"
+                    "sidenav footer footer"
+                    ;
+            }
